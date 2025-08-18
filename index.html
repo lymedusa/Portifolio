@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio • Evelyn Nicole</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" xintegrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVaOxVtCSFPvdLwUvaB/+NAUnIFBGMLAVS5DCEcAEMmilKZTLTLI4EV0H7NANEY/4I1Ls" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a href="#home" class="logo">Portfólio<span>.</span></a>
+
+      <button class="hamburger" id="hamburger-button" aria-label="Abrir menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="menu" id="main-menu">
+        <a href="#home">Início</a>
+        <a href="#about">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section container">
+      <div class="me-text">
+        <p class="hello">Olá,</p>
+        <h1>Sou <span class="highlight">Evelyn</span></h1>
+        <h2>Desenvolvedora Front-End</h2>
+        <p class="from">Transformando ideias em realidade digital.</p>
+        <a href="#contact" class="btn primary">Fale comigo</a>
+      </div>
+
+      <div class="me-photo">
+        <div class="glow-circle">
+         <img src="img/foto.jpeg" alt="Foto de perfil da Evelyn">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h3 class="section-title">Sobre Mim</h3>
+      <div class="about-grid">
+        <div class="about-photo glow-card">
+          <img src="img/formatura.jpeg" alt="Foto lateral da Evelyn">
+        </div>
+        <div class="about-text glow-card">
+          <h4>Desenvolvedora Front-End</h4>
+          <p>
+            Sou uma desenvolvedora apaixonada por tecnologia e inovação. Com 2 anos de experiência, tenho um forte interesse em construir aplicações web robustas e intuitivas. Minha jornada na programação teve início inspirada pelo meu pai, um excelente programador. Desde então, venho me dedicando continuamente a aprender novas tecnologias e aperfeiçoar minhas habilidades, sempre em busca de desenvolver soluções criativas e de alta qualidade.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section container">
+      <h3 class="section-title">Minhas Habilidades</h3>
+
+      <div class="skills-intro">
+        <p>
+          Ao longo dos últimos anos, desenvolvi um conjunto de habilidades que
+          reflete minha trajetória e meu compromisso com qualidade e resultados.
+        </p>
+        <div class="xp">
+          <span class="big">2</span>
+          <span>Anos de experiência</span>
+        </div>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill">
+          <div class="skill-head">
+            <span>HTML</span><span class="skill-val">100%</span>
+          </div>
+          <div class="bar"><span data-percent="100"></span></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>CSS</span><span class="skill-val">100%</span>
+          </div>
+          <div class="bar"><span data-percent="100"></span></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>JavaScript</span><span class="skill-val">70%</span>
+          </div>
+          <div class="bar"><span data-percent="70"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section container">
+      <h3 class="section-title">Meus Projetos</h3>
+
+      <div class="services-grid">
+        <article class="service glow-card">
+          <i class="fa-solid fa-code"></i>
+          <h4>Pat Amiga</h4>
+          <p>Uma plataforma dedicada a conectar pessoas com animais que precisam de um lar.</p>
+        </article>
+
+        <article class="service glow-card">
+          <i class="fa-solid fa-pen-ruler"></i>
+          <h4>Encontro de Amigas</h4>
+          <p>Um site para organizar encontros e eventos entre amigas.</p>
+        </article>
+
+        <article class="service glow-card">
+          <i class="fa-solid fa-bullhorn"></i>
+          <h4>Hora do Filme</h4>
+          <p>Plataforma para descobrir e discutir me os últimos lançamentos de filmes.</p>
+        </article>
+
+        <article class="service glow-card">
+          <i class="fa-solid fa-icons"></i>
+          <h4>Sistema de Educação</h4>
+          <p>Um sistema para gestão de conteúdo e interação em ambiente educacional.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="certificados" class="section container">
+  <h3 class="section-title">Meus Certificados</h3>
+
+  <div class="certificados-grid">
+    <article class="certificado glow-card">
+      <img class="certificado-img" src="img/git.png" alt="Descrição do Certificado 1">
+      <div class="certificado-info">
+        <h4>Nome do Curso ou Certificação</h4>
+        <p>Instituição Emissora</p>
+      </div>
+    </article>
+
+    <article class="certificado glow-card">
+      <img src="img/certificado-placeholder.jpg" alt="Descrição do Certificado 2">
+      <div class="certificado-info">
+        <h4>Nome do Curso ou Certificação</h4>
+        <p>Instituição Emissora</p>
+      </div>
+    </article>
+
+    <article class="certificado glow-card">
+      <img src="img/certificado-placeholder.jpg" alt="Descrição do Certificado 3">
+      <div class="certificado-info">
+        <h4>Nome do Curso ou Certificação</h4>
+        <p>Instituição Emissora</p>
+      </div>
+    </article>
+  </div>
+
+  <div class="mostrar-mais">
+    <a href="#" class="btn outline">Mostrar mais</a>
+  </div>
+  </section>
+
+    <section id="contact" class="section container">
+      <h3 class="section-title">Contato</h3>
+      <p>Tem algum projeto em mente? Vamos conversar.</p>
+      <a href="mailto:evelynnicole123@gmail.com" class="btn primary">Enviar E-mail</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot">
+      <p>Criado por <strong>Evelyn Nicole</strong> • 2025</p>
+      <div class="social">
+        <a href="#" aria-label="Github"><i class="fa-brands fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
