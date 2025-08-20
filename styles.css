@@ -315,13 +315,14 @@ img {
 }
 
 #projetos .services-grid {
+  padding: 0 10rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+  gap: 2rem;
 }
 
 #projetos .service {
-  padding: 1.2rem;
+  padding: 4vw;
   text-align: center;
 }
 
@@ -362,11 +363,16 @@ img {
 
 .social {
   display: flex;
-  gap: .8rem;
+  gap: 1rem;
+}
+
+.menor {
+  font-size: 1.5rem;
+  margin-left: 10.8px;
 }
 
 .social a {
-  font-size: 1.1rem;
+  font-size: 1.9rem;
 }
 
 @media (max-width: 680px) {
@@ -432,9 +438,10 @@ img {
 
 /* --- Seção de Certificados --- */
 #certificados .certificados-grid {
+  padding: 0 10rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
   margin-bottom: 2.5rem;
 }
 
@@ -453,7 +460,7 @@ img {
 #certificados .certificado img {
   border-radius: 5px;
   width: 100%;
-  height: 180px; /* Altura fixa para a imagem */
+  height: auto; /* Altura fixa para a imagem */
   object-fit: cover;
   border-bottom: 1px solid --shadow;
 }
