@@ -101,10 +101,13 @@ img {
   background: rgba(30, 144, 255, .08);
 }
 
-.img-service {
-  height: 200px;
-  margin: 10px auto;
+.services-grid img {
+  width: 100%;
+  object-fit: cover;
   border-radius: 10px;
+}
+
+.service .glow-card {
 }
 
 .glow-card {
