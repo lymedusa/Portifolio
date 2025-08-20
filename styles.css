@@ -178,6 +178,17 @@ img {
   padding: 3rem 0 2rem;
 }
 
+.img-container {
+  width: 100%;
+  height: 260px;
+}
+
+.img-content {
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+}
+
 .me-text .hello {
   opacity: .8;
 }
