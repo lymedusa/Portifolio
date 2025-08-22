@@ -177,6 +177,7 @@ img {
 
 .img-container {
   width: 100%;
+  min-height: 260px;
   height: auto;
 }
 
@@ -440,6 +441,19 @@ img {
 
   #about .about-grid {
     grid-template-columns: 1fr;
+  }
+
+  .certificados-grid{
+    display: block !important;
+  }
+
+  .services-grid{
+    display: block !important;
+  }
+
+  .section-title{
+    width: auto !important;
+    text-align: center;
   }
   
   #habilidades .skills-intro {
