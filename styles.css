@@ -444,11 +444,13 @@ img {
   }
 
   .certificados-grid{
-    display: block !important;
+    display: flex !important;
+    flex-direction: column;
   }
 
   .services-grid{
-    display: block !important;
+    display: flex !important;
+    flex-direction: column;
   }
 
   .section-title{
